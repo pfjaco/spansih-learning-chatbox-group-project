@@ -1,0 +1,32 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: center;
+  text-align: center;
+  background-color: #5D3B9E; /* Deep purple background */
+  color: #F8F8F8; /* Light gray text */
+  padding: 20px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App-header {
+  width: 100%;
+  margin-bottom: 2rem; /* Sufficient gap from the top heading */
+}
+
+.App-main {
+  width: 100%;
+  flex-grow: 1; /* Allows the main content to grow and take up available space */
+}
+
+h1 {
+  background-clip: text;
+  color: #FFD700;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  width: 720px;
+  margin: 0
+}

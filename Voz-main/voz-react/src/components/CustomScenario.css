@@ -1,0 +1,34 @@
+/* src/components/CustomScenario.css */
+.custom-scenario {
+    font-size: 24px;
+    margin-bottom: 1rem; /* Sufficient gap between the heading and the button */
+    color: #FFFFFF; /* For visibility */
+  }
+  
+  .scenario-box {
+    background-color: #FFD700; /* Vivid yellow background */
+    color: #333333; /* Dark gray text */
+    border-radius: 50px; /* Rounded corners */
+    padding: 1rem 2rem; /* Padding around the text */
+    text-align: center;
+    max-width: 300px;
+    margin: 2rem auto; /* Centralize the box with a margin on the top and bottom */
+    cursor: pointer; /* Indicate the box is clickable */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for interaction */
+  }
+  
+  .scenario-box:hover {
+    transform: scale(1.05); /* Slightly enlarge the button on hover for interaction feedback */
+  }
+  
+  @media (max-width: 768px) {
+    .custom-scenario {
+      font-size: 20px;
+    }
+    .scenario-box {
+      padding: 1rem;
+      font-size: 14px;
+    }
+  }
+  
